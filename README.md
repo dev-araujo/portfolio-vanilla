@@ -2,7 +2,8 @@
 
 Meu site-portfólio ❤️
 
-Feito utilizando HTML, CSS e JS
+Feito utilizando HTML, CSS e JS.
+
 Decidi não utilizar frameworks para poder praticar um desenvolvimento front-web mais raíz.
 
 Pode ser conferido [aqui](https://dev-araujo.com.br/)
