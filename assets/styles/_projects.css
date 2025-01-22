@@ -33,7 +33,6 @@ figure {
 }
 
 .project img {
-  min-width: 100%;
   transform-origin: center;
   transform: scale(var(--img-scale));
   transition: transform 0.4s ease-in-out;
@@ -89,12 +88,11 @@ figure {
 
 .building {
   display: flex;
-  background: #FFC107;
+  background: #ffc107;
   justify-content: center;
   align-items: center;
-  
 }
 
-.building h1{
+.building h1 {
   font-weight: 600;
 }

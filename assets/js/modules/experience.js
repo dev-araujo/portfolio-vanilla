@@ -24,10 +24,20 @@ export function initExperience() {
     },
     WEB3DEV: {
       title: "Tradutor/Revisor de conteúdo sobre Blockchain",
-      period: "Mar 2022 - Fev 2024 (3 meses)",
+      period: "Mar 2022 - Fev 2024 (2 anos)",
       description:
         "Tradução e revisão (do inglês para o português), de conteúdos técnicos e tutoriais relacionados à <strong>web3</strong> (blockchain, DAO's, criptoativos, NFT's ...).",
-      tecnologies: ["Tradução", "Revisão", "Gestão", "Trello", "SCRUM"],
+      tecnologies: [
+        "Tradução",
+        "Revisão",
+        "Gestão",
+        "Trello",
+        "SCRUM",
+        "Solidity",
+        "Ethereum",
+        "EVM",
+        "Comunicação",
+      ],
     },
     "Paytime Brasil": {
       title: "Desenvolvedor Front-end - Júnior",
@@ -86,8 +96,8 @@ export function initExperience() {
             <p>${content.description}</p>
             <section class="tecnologies">
                 ${content.tecnologies
-        .map((tech) => `<p class="tag">${tech}</p>`)
-        .join("")}
+                  .map((tech) => `<p class="tag">${tech}</p>`)
+                  .join("")}
             </section>
         `;
   }
